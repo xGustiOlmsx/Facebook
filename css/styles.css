@@ -9,6 +9,8 @@ body {
     background-color: #eaeaea;
 }
 
+/*ACA COMIENZA EL HEADER*/
+
 header {
     display: flex;
     justify-content: space-between;
