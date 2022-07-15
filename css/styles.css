@@ -7,6 +7,7 @@
 
 body {
     background-color: #eaeaea;
+
 }
 
 /*ACA COMIENZA EL HEADER*/
@@ -90,3 +91,121 @@ header .nav-right ul img {
     margin: 10px;
     border-radius: 50%;
 }
+
+.container {
+    display: flex;
+}
+
+/*AHORA EMPIEZO EL NAV DE LA IZQUIERDA*/
+
+.left {
+    padding-left: 6px;
+    margin-right: 100px;
+}
+
+.list {
+    border-right: #eaeaea solid;
+}
+
+.list:hover {
+    border-right: #8e8e8e solid;
+}
+
+.list ul li {
+    padding: 10px 100px 10px 10px;
+    list-style: none;
+}
+
+.list ul li:hover {
+    background-color: #dadada;
+}
+
+.list ul li img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.list ul li a i {
+    color: rgb(2, 95, 166);
+    margin-right: 10px;
+}
+
+/*ACA EMPIEZO CON EL CENTRO*/
+/*HISTORIA*/
+.historia {
+    margin: 10px auto 10px auto ;
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.historia .historia-inside {
+    border-radius: 10px;
+    padding: 10px 300px 10px 10px;
+    display: flex;
+}
+
+.historia .historia-inside:hover {
+    background-color: #dadada;
+}
+
+.historia-inside i {
+    padding: 10px;
+    margin-right: 10px;
+    color: #0060e7;
+    background-color: #a9cdff;
+    border-radius: 45px;
+}
+
+.historia-inside .crear-historia a{
+    text-decoration: none;
+    color: black;
+}
+
+.historia-inside .crear-historia a p {
+    color: #8e8e8e;
+}
+/*QUE ESTAS PENSANDO*/
+
+/*CREAR SALA*/
+.crear-sala {
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    width: 500px;
+    margin-right: 50px;
+    margin-left: 55px;
+}
+
+.crear-sala .crear {
+    border: #8e8e8e solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-right: 300px;
+    height: 35px;
+}
+
+.crear-sala .crear:hover {
+    background-color: #dadada;
+} 
+
+.crear-sala .crear a {
+    display: flex;
+    padding: 7px 35px;
+    text-decoration: none;
+    color: #0060e7;
+}
+
+
+/*PARTE DERECHA*/
+
+.right {
+    margin-right: 0px;
+    margin-left: 100px;
+}
+
