@@ -201,11 +201,87 @@ header .nav-right ul img {
     color: #0060e7;
 }
 
+.estado {
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin: 10px 50px 10px 55px;
+    padding: 10px;
+    width: 500px;
+}
+
+.pensando {
+    display: flex;
+    text-align: center;
+}
+
+.pensando .user img{
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.pensando-box input {
+    margin-top: 12px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgba(239,239,239,1);
+    padding-left: 10px;
+    font-size: 15px;
+    color: #8e8e8e;
+    width: 410px;
+    border-radius: 50px;
+}
+
+.pensando-box input:hover {
+    background-color: #dadada;
+}
+
+.subir {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.subir-tema {
+    display: flex;
+    padding: 10px;
+}
+
+.subir-tema:hover {
+    background-color: #dadada;
+    border-radius: 10px;
+}
+
+.subir-tema i {
+    margin-right: 5px;
+}
 
 /*PARTE DERECHA*/
 
 .right {
-    margin-right: 0px;
-    margin-left: 100px;
+    margin: 10px 0px 10px 100px;
+    color: #8e8e8e;
 }
 
+.crear-grupo {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.crear-grupo:hover {
+    background-color: #dadada;
+}
+
+.crear-grupo a {
+    text-decoration: none;
+    color: black;
+}
+
+.crear-grupo i {
+    padding: 5px;
+    margin-right: 10px;
+    color: black;
+    background-color: #cacaca;
+    border-radius: 45px;
+}
